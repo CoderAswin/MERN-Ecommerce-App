@@ -1,0 +1,36 @@
+.registerBody {
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button { //remove arrow from input type Number
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h4 {
+            text-decoration: underline;
+        }
+
+        button {
+            width: 100%;
+            color: white;
+        }
+
+        .inputBox {
+            width: 400px;
+        }
+    }
+
+
+
+
+}

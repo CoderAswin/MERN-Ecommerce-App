@@ -1,0 +1,27 @@
+.successBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+
+    .message{
+        display: flex;
+        align-items: center;
+
+        .icon{
+            font-size: 80px;
+            color: #267DF3;
+        }
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        
+        button{
+            height: 50px;
+            width: 30%;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.accountBody {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+
+    
+    .account {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        // position: absolute;
+        // left: 35%;
+        // top: 30px;
+
+        border-style: solid;
+        padding: 45px 45px;
+        border-width: 1px;
+        -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+        border-color: white;
+
+
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            gap: 190px;
+        }
+
+
+        .button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-right: 50px;
+
+            button {
+                width: 70%;
+                color: white;
+            }
+        }
+
+
+
+
+    }
+}

@@ -1,0 +1,37 @@
+.cartBody{
+
+    margin-top: 50px;
+
+
+    .card{
+        height: 168px;
+
+        .cardChild{
+            display: flex;
+
+            .img{
+                height: 168px;
+                width: 130px;
+            }
+
+            .contents{
+                display: flex;
+                margin-top: 20px;
+                
+                .hi{
+                    display: flex;
+                    flex-direction: column;
+
+                    .delete{
+                        margin-top: 80px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            
+        }
+
+        
+    }
+    
+}

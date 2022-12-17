@@ -1,0 +1,71 @@
+.showCaseBody {
+    margin-top: 200px;
+
+    .imgGallery {
+        .smImage {
+            height: 64px;
+            width: 50px;
+        }
+
+        .bgImageBody{
+            position: relative;
+            left: 130px;
+            bottom: 400px;
+            cursor: pointer;
+            
+        }
+
+    }
+
+    .infoBody{
+        margin-left: 150px;
+        position: relative;
+        bottom: 160px;
+
+        .size{
+            .s{
+                border: 1px solid black;
+                border-radius: 50%;
+                padding: 5px 12px 5px 12px;
+            }
+
+            .m{
+                margin-left: 10px;
+                border: 1px solid black;
+                border-radius: 50%;
+                padding: 5px 10px 5px 10px;
+            }
+
+            .l{
+                border: 1px solid black;
+                margin-left: 10px;
+                border-radius: 50%;
+                padding: 5px 12px 5px 12px;
+            }
+
+            .xl{
+                border: 1px solid black;
+                margin-left: 10px;
+                border-radius: 50%;
+                padding: 5px 10px 5px 10px;
+            }
+
+            .xxl{
+                margin-left: 10px;
+                border: 1px solid black;
+                border-radius: 50%;
+                padding: 4px 3px 4px 3px;
+            }
+        }
+
+        .bag{
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        
+    }
+
+
+}

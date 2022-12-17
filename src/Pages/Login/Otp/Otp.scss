@@ -1,0 +1,15 @@
+.otpBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+
+    .otp{
+        width: 25%;
+    }
+
+    .button{
+        width: 100%;
+        color: white;
+    }
+}

@@ -1,0 +1,41 @@
+.loginRegister{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+
+    .loginBody {
+
+        h4{
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+        
+        .buttons{
+            display: flex;
+            flex-direction: column;
+
+            .button{
+                width: 100%;
+            }
+            span{
+                margin-left: 47%;
+                margin-top: 15px;
+            }
+        }
+    
+    
+    
+        .button {
+            width: 27%;
+            height: 40px;
+            background-color: #FF3F6C;
+            border: none;
+            color: white;
+        }
+    
+    }
+}
+

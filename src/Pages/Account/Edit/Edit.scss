@@ -1,0 +1,54 @@
+.editBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+
+    .edit{
+        border-style: solid;
+        border-width: 1px;
+        padding: 50px;
+    }
+
+    .radio{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .mobile{
+        border-style: solid;
+        border-width: 2px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+
+        button{
+            width: 50%;
+            color: white;
+        }
+    }
+
+    
+
+    .address{
+        margin-top: 70px;
+    }
+
+    .save{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        button{
+            width: 50%;
+            color: white;
+        }
+    }
+}
